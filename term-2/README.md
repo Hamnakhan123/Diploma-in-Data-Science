@@ -8,7 +8,7 @@ Prepared by **Hamna Zahid Khan**, Junior Lecturer
 
 ### Module 1 · Data Mining with WEKA
 
-*24 hours · 8 sessions · 🚧 7/8 sessions*
+*24 hours · 8 sessions · ✅ complete*
 
 | # | Session | Status |
 |---|---|---|
@@ -19,7 +19,7 @@ Prepared by **Hamna Zahid Khan**, Junior Lecturer
 | 5 | [Regression Techniques](01-data-mining-with-weka/session-05-regression-techniques.md) | ✅ Ready |
 | 6 | [Clustering Techniques](01-data-mining-with-weka/session-06-clustering-techniques.md) | ✅ Ready |
 | 7 | [Text Mining and Web Mining](01-data-mining-with-weka/session-07-text-mining-and-web-mining.md) | ✅ Ready |
-| 8 | Designing a Real-World Data Mining Project | ⏳ Coming soon |
+| 8 | [Designing a Real-World Data Mining Project](01-data-mining-with-weka/session-08-real-world-data-mining-project.md) | ✅ Ready |
 
 ### Module 2 · Foundations of Big Data Systems with Hadoop
 
