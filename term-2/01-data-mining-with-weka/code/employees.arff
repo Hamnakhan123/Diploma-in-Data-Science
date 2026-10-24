@@ -1,0 +1,19 @@
+@relation employees
+
+@attribute age numeric
+@attribute salary numeric
+@attribute city {Karachi,Lahore,Islamabad}
+@attribute experience numeric
+@attribute promoted {yes,no}
+
+@data
+25,45000,Karachi,1,no
+32,?,Lahore,6,yes
+41,120000,Karachi,15,yes
+29,52000,?,4,no
+?,61000,Islamabad,7,yes
+36,88000,Lahore,10,yes
+23,38000,Karachi,0,no
+45,135000,Islamabad,20,yes
+27,47000,Lahore,3,no
+33,70000,Karachi,?,no
