@@ -1,0 +1,20 @@
+@relation shop
+
+@attribute bread {t}
+@attribute butter {t}
+@attribute milk {t}
+@attribute eggs {t}
+@attribute jam {t}
+@attribute tea {t}
+
+@data
+t,t,t,?,?,?
+t,t,?,?,t,?
+t,?,t,?,?,t
+?,?,t,t,?,t
+t,t,t,?,t,?
+t,t,?,?,t,t
+?,?,t,t,?,?
+t,t,t,t,?,?
+?,?,?,?,?,t
+t,t,?,?,t,?
