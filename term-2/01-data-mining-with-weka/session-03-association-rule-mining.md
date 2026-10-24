@@ -221,7 +221,7 @@ Best rules found:
 
 === Evaluation ===
 
-Elapsed time: 0.018s
+Elapsed time: 0.055s
 ```
 
 Each rule reads `antecedent count ==> consequent count <conf:(…)> lift:(…)`. For example `jam=t 4 ==> butter=t 4` means all 4 jam baskets also had butter, so confidence is 1.
@@ -249,7 +249,7 @@ Best rules found:
 
 === Evaluation ===
 
-Elapsed time: 0.015s
+Elapsed time: 0.051s
 ```
 
 ### Example 5 · Apriori in Python with mlxtend
@@ -271,7 +271,9 @@ onehot = pd.DataFrame(te.fit(transactions).transform(transactions), columns=te.c
 
 frequent = apriori(onehot, min_support=0.3, use_colnames=True)
 print("Frequent itemsets (support >= 0.3):")
-print(frequent.sort_values("support", ascending=False).to_string(index=False))
+show = frequent.copy()  # keep the frozensets intact for association_rules
+show["itemsets"] = show["itemsets"].apply(lambda s: ", ".join(sorted(s)))
+print(show.sort_values("support", ascending=False).to_string(index=False))
 
 rules = association_rules(frequent, metric="confidence", min_threshold=0.8)
 cols = ["antecedents", "consequents", "support", "confidence", "lift"]
@@ -286,21 +288,21 @@ print(rules.round(2).to_string(index=False))
 
 ```text
 Frequent itemsets (support >= 0.3):
- support                         itemsets
-     0.7               frozenset({bread})
-     0.6              frozenset({butter})
-     0.6                frozenset({milk})
-     0.6       frozenset({butter, bread})
-     0.4                 frozenset({jam})
-     0.4                 frozenset({tea})
-     0.4          frozenset({jam, bread})
-     0.4         frozenset({milk, bread})
-     0.4         frozenset({jam, butter})
-     0.4  frozenset({butter, jam, bread})
-     0.3                frozenset({eggs})
-     0.3        frozenset({milk, butter})
-     0.3          frozenset({eggs, milk})
-     0.3 frozenset({butter, milk, bread})
+ support            itemsets
+     0.7               bread
+     0.6              butter
+     0.6                milk
+     0.6       bread, butter
+     0.4                 jam
+     0.4                 tea
+     0.4          bread, jam
+     0.4         bread, milk
+     0.4         butter, jam
+     0.4  bread, butter, jam
+     0.3                eggs
+     0.3        butter, milk
+     0.3          eggs, milk
+     0.3 bread, butter, milk
 
 Rules (confidence >= 0.8):
  antecedents   consequents  support  confidence  lift
@@ -356,10 +358,10 @@ As support rises, both itemsets and rules shrink sharply. Pick the setting that 
 
 ```mermaid
 xychart-beta
-    title "Fewer rules as minimum support rises (shape of Example 6)"
+    title "Rules found in Example 6 as minimum support rises"
     x-axis ["0.1", "0.2", "0.3", "0.4", "0.5"]
-    y-axis "Relative number of rules" 0 --> 100
-    bar [100, 45, 20, 8, 3]
+    y-axis "Number of rules" 0 --> 40
+    bar [38, 14, 14, 11, 2]
 ```
 
 ## 🧪 Lab / practice tasks
