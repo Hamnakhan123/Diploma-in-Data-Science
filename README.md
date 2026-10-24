@@ -15,7 +15,7 @@ Every session has a Markdown lesson and a matching `code/` folder (Python script
 
 *6 modules · 69 sessions · 188 hours*
 
-### Module 1 · Data Mining with WEKA
+### Module 1 · [Data Mining with WEKA](term-2/01-data-mining-with-weka/README.md)
 
 *24 hours · 8 sessions · ✅ complete*
 
