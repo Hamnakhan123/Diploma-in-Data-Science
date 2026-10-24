@@ -17,7 +17,7 @@ Every session has a Markdown lesson and a matching `code/` folder (Python script
 
 ### Module 1 · Data Mining with WEKA
 
-*24 hours · 8 sessions · 🚧 6/8 sessions*
+*24 hours · 8 sessions · 🚧 7/8 sessions*
 
 | # | Session | Status |
 |---|---|---|
@@ -27,7 +27,7 @@ Every session has a Markdown lesson and a matching `code/` folder (Python script
 | 4 | [Classification and Decision Trees](term-2/01-data-mining-with-weka/session-04-classification-and-decision-trees.md) | ✅ Ready |
 | 5 | [Regression Techniques](term-2/01-data-mining-with-weka/session-05-regression-techniques.md) | ✅ Ready |
 | 6 | [Clustering Techniques](term-2/01-data-mining-with-weka/session-06-clustering-techniques.md) | ✅ Ready |
-| 7 | Text Mining and Web Mining | ⏳ Coming soon |
+| 7 | [Text Mining and Web Mining](term-2/01-data-mining-with-weka/session-07-text-mining-and-web-mining.md) | ✅ Ready |
 | 8 | Designing a Real-World Data Mining Project | ⏳ Coming soon |
 
 ### Module 2 · Foundations of Big Data Systems with Hadoop
