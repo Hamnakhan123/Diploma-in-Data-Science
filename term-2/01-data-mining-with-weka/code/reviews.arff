@@ -1,0 +1,26 @@
+@relation reviews
+
+@attribute text string
+@attribute sentiment {pos,neg}
+
+@data
+'fast delivery and great quality',pos
+'excellent product works perfectly',pos
+'great price and fast shipping',pos
+'very happy with the quality',pos
+'excellent service will buy again',pos
+'perfect size and great colour',pos
+'happy customer fast response',pos
+'quality is excellent and price is fair',pos
+'great value highly recommended',pos
+'works great very happy',pos
+'late delivery and poor packaging',neg
+'product broke after one week',neg
+'poor quality waste of money',neg
+'delivery was very late',neg
+'item arrived damaged and broken',neg
+'refund still not received',neg
+'terrible service never again',neg
+'poor customer support and late refund',neg
+'damaged box and missing parts',neg
+'waste of money do not buy',neg
