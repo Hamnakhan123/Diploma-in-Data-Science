@@ -12,7 +12,9 @@ onehot = pd.DataFrame(te.fit(transactions).transform(transactions), columns=te.c
 
 frequent = apriori(onehot, min_support=0.3, use_colnames=True)
 print("Frequent itemsets (support >= 0.3):")
-print(frequent.sort_values("support", ascending=False).to_string(index=False))
+show = frequent.copy()  # keep the frozensets intact for association_rules
+show["itemsets"] = show["itemsets"].apply(lambda s: ", ".join(sorted(s)))
+print(show.sort_values("support", ascending=False).to_string(index=False))
 
 rules = association_rules(frequent, metric="confidence", min_threshold=0.8)
 cols = ["antecedents", "consequents", "support", "confidence", "lift"]
