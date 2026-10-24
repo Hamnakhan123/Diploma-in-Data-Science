@@ -245,7 +245,7 @@ weka weka.filters.unsupervised.attribute.ReplaceMissingValues -i employees.arff 
 weka weka.filters.unsupervised.attribute.Normalize -i step1.arff -o step2.arff
 weka weka.filters.unsupervised.attribute.Discretize -B 3 -R 1 -i step1.arff -o step3.arff
 echo "--- normalised (first 4 rows) ---"
-grep -A 4 "@data" step2.arff | tail -4
+grep -A 5 "@data" step2.arff | tail -4
 echo "--- age discretised into 3 bins ---"
 grep "@attribute age" step3.arff
 ```
@@ -254,10 +254,10 @@ grep "@attribute age" step3.arff
 
 ```text
 --- normalised (first 4 rows) ---
-
 0.090909,0.072165,Karachi,0.05,no
 0.409091,0.359679,Lahore,0.3,yes
 0.818182,0.845361,Karachi,0.75,yes
+0.272727,0.14433,Karachi,0.2,no
 --- age discretised into 3 bins ---
 @attribute age {'\'(-inf-30.333333]\'','\'(30.333333-37.666667]\'','\'(37.666667-inf)\''}
 ```
