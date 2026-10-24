@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2a4a"/><stop offset="1" stop-color="#1f6f8b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="18" fill="url(#g)"/>
+  <g fill="#ffffff" opacity="0.12">
+    <circle cx="980" cy="70" r="10"/><circle cx="1050" cy="120" r="14"/><circle cx="1120" cy="60" r="8"/>
+    <circle cx="1010" cy="190" r="12"/><circle cx="1100" cy="200" r="9"/><circle cx="930" cy="150" r="7"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="2" opacity="0.12">
+    <line x1="980" y1="70" x2="1050" y2="120"/><line x1="1050" y1="120" x2="1120" y2="60"/>
+    <line x1="1050" y1="120" x2="1010" y2="190"/><line x1="1050" y1="120" x2="1100" y2="200"/><line x1="930" y1="150" x2="1050" y2="120"/>
+  </g>
+  <text x="60" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff">Diploma in Data Science</text>
+  <text x="62" y="165" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" fill="#cfe8f3">Data Mining · Big Data · Python · Tableau · Reinforcement Learning · Data Lakes</text>
+  <text x="62" y="212" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#9fd0e3">Prepared by Hamna Zahid Khan, Junior Lecturer</text>
+</svg>
