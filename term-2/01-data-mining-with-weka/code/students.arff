@@ -1,0 +1,20 @@
+@relation students
+
+@attribute attendance numeric
+@attribute assignments numeric
+@attribute shift {morning,evening}
+@attribute passed {yes,no}
+
+@data
+92,8,morning,yes
+85,7,evening,yes
+60,3,evening,no
+78,6,morning,yes
+55,2,morning,no
+70,5,evening,yes
+48,4,evening,no
+88,9,morning,yes
+65,?,morning,no
+95,10,evening,yes
+72,6,evening,yes
+58,3,morning,no
