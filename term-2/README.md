@@ -8,7 +8,7 @@ Prepared by **Hamna Zahid Khan**, Junior Lecturer
 
 ### Module 1 · Data Mining with WEKA
 
-*24 hours · 8 sessions · 🚧 4/8 sessions*
+*24 hours · 8 sessions · 🚧 5/8 sessions*
 
 | # | Session | Status |
 |---|---|---|
@@ -16,7 +16,7 @@ Prepared by **Hamna Zahid Khan**, Junior Lecturer
 | 2 | [Data Warehousing and Data Pre-processing](01-data-mining-with-weka/session-02-data-warehousing-and-preprocessing.md) | ✅ Ready |
 | 3 | [Association Rule Mining](01-data-mining-with-weka/session-03-association-rule-mining.md) | ✅ Ready |
 | 4 | [Classification and Decision Trees](01-data-mining-with-weka/session-04-classification-and-decision-trees.md) | ✅ Ready |
-| 5 | Regression Techniques | ⏳ Coming soon |
+| 5 | [Regression Techniques](01-data-mining-with-weka/session-05-regression-techniques.md) | ✅ Ready |
 | 6 | Clustering Techniques | ⏳ Coming soon |
 | 7 | Text Mining and Web Mining | ⏳ Coming soon |
 | 8 | Designing a Real-World Data Mining Project | ⏳ Coming soon |
