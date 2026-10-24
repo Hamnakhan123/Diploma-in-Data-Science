@@ -55,7 +55,7 @@ A **decision tree** is a flowchart: each **internal node** tests an attribute, e
 
 **ID3** (Ross Quinlan, 1986) picks the attribute with the highest gain at the root, splits the data, and repeats on each branch until nodes are pure or no attributes are left.
 
-**Worked mini-example.** 10 applicants: 6 admitted, 4 rejected → H = −(0.6 log₂0.6 + 0.4 log₂0.4) = **0.971**. Split on *test score* (high / low): high = 5 admitted, 1 rejected (H = 0.650); low = 1 admitted, 3 rejected (H = 0.811). Weighted = 0.6·0.650 + 0.4·0.811 = 0.714 → **Gain = 0.257**. Example 1 verifies this in code.
+**Worked mini-example.** 10 applicants: 6 admitted, 4 rejected → H = −(0.6 log₂0.6 + 0.4 log₂0.4) = **0.971**. Split on *test score* (high / low): high = 5 admitted, 1 rejected (H = 0.650); low = 1 admitted, 3 rejected (H = 0.811). Weighted = 0.6·0.650 + 0.4·0.811 = 0.715 → **Gain = 0.256**. Example 1 verifies this in code.
 
 ### 4. From ID3 to C4.5 / J48
 
@@ -247,7 +247,7 @@ Weighted Avg.    0.500    0.544    0.521      0.500    0.508      -0.043   0.633
  3 2 | b = no
 ```
 
-The tree is exactly the diagram above. Cross-validation accuracy is modest because 14 rows is very little data; each test fold has only one or two examples.
+The tree is exactly the diagram above. Yet cross-validated accuracy is only 50% with a kappa near zero: with just 14 rows, each test fold has one or two examples and each training fold is too small to rebuild the same tree. A readable tree is not automatically an accurate one — always look at the cross-validated numbers.
 
 ### Example 5 · The same tree in scikit-learn
 
