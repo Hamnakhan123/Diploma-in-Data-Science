@@ -6,7 +6,7 @@ Prepared by **Hamna Zahid Khan**, Junior Lecturer
 
 *6 modules · 69 sessions · 188 hours* · 🚧 work in progress
 
-### Module 1 · Data Mining with WEKA
+### Module 1 · [Data Mining with WEKA](01-data-mining-with-weka/README.md)
 
 *24 hours · 8 sessions · ✅ complete*
 
