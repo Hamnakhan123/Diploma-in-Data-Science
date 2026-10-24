@@ -1,0 +1,25 @@
+@relation houses
+
+@attribute area_sqft numeric
+@attribute bedrooms numeric
+@attribute age_years numeric
+@attribute location {Gulshan,DHA,Korangi}
+@attribute price_lakh numeric
+
+@data
+1200,3,10,Gulshan,180
+900,2,15,Korangi,95
+2000,4,5,DHA,420
+1500,3,8,Gulshan,230
+1800,4,12,DHA,370
+800,2,20,Korangi,80
+2500,5,3,DHA,560
+1100,3,18,Gulshan,160
+1300,3,6,Korangi,135
+1600,3,9,Gulshan,250
+2200,4,7,DHA,470
+1000,2,14,Korangi,105
+1400,3,11,Gulshan,205
+3000,5,2,DHA,690
+950,2,25,Korangi,85
+1700,4,10,Gulshan,265
