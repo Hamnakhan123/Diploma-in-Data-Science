@@ -1,0 +1,13 @@
+@relation churn
+
+@attribute tenure_months numeric
+@attribute contract {monthly,yearly}
+@attribute monthly_bill numeric
+@attribute complaint_calls numeric
+@attribute internet {fibre,dsl}
+@attribute churn {no,yes}
+
+@data
+3,monthly,3500,4,fibre,?
+48,yearly,1500,0,dsl,?
+14,monthly,2200,2,dsl,?
