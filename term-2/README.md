@@ -21,27 +21,27 @@ Prepared by **Hamna Zahid Khan**, Junior Lecturer
 | 7 | [Text Mining and Web Mining](01-data-mining-with-weka/session-07-text-mining-and-web-mining.md) | ✅ Ready |
 | 8 | [Designing a Real-World Data Mining Project](01-data-mining-with-weka/session-08-real-world-data-mining-project.md) | ✅ Ready |
 
-### Module 2 · Foundations of Big Data Systems with Hadoop
+### Module 2 · [Foundations of Big Data Systems with Hadoop](02-big-data-systems-with-hadoop/README.md)
 
-*40 hours · 15 sessions · ⏳ coming soon*
+*40 hours · 15 sessions · ✅ complete*
 
 | # | Session | Status |
 |---|---|---|
-| 1 | Introduction to Big Data and the Hadoop Ecosystem | ⏳ Coming soon |
-| 2 | Configuring Hadoop and Setting Up a Cluster | ⏳ Coming soon |
-| 3 | Understanding HDFS and Its Goals | ⏳ Coming soon |
-| 4 | Exploring YARN and Classic MapReduce | ⏳ Coming soon |
-| 5 | Demonstrating MapReduce Algorithms | ⏳ Coming soon |
-| 6 | Understanding Sqoop and Joins in MapReduce | ⏳ Coming soon |
-| 7 | Exploring Hadoop Architecture and Components | ⏳ Coming soon |
-| 8 | Working with Hive and Impala | ⏳ Coming soon |
-| 9 | Introduction to Apache Pig | ⏳ Coming soon |
-| 10 | Pig Latin Data Model and Operators | ⏳ Coming soon |
-| 11 | Introduction to Apache Spark | ⏳ Coming soon |
-| 12 | Spark Statistics for Interactive Dashboards | ⏳ Coming soon |
-| 13 | Data Analysis with Spark: Clustering and Forecasting | ⏳ Coming soon |
-| 14 | Special Field Types, Generated Fields and Parameters in Spark | ⏳ Coming soon |
-| 15 | Final Project and Next Steps | ⏳ Coming soon |
+| 1 | [Introduction to Big Data and the Hadoop Ecosystem](02-big-data-systems-with-hadoop/session-01-big-data-and-hadoop-ecosystem.md) | ✅ Ready |
+| 2 | [Configuring Hadoop and Setting Up a Cluster](02-big-data-systems-with-hadoop/session-02-configuring-hadoop-cluster.md) | ✅ Ready |
+| 3 | [Understanding HDFS and Its Goals](02-big-data-systems-with-hadoop/session-03-hdfs-and-its-goals.md) | ✅ Ready |
+| 4 | [Exploring YARN and Classic MapReduce](02-big-data-systems-with-hadoop/session-04-yarn-and-classic-mapreduce.md) | ✅ Ready |
+| 5 | [Demonstrating MapReduce Algorithms](02-big-data-systems-with-hadoop/session-05-mapreduce-algorithms.md) | ✅ Ready |
+| 6 | [Understanding Sqoop and Joins in MapReduce](02-big-data-systems-with-hadoop/session-06-sqoop-and-mapreduce-joins.md) | ✅ Ready |
+| 7 | [Exploring Hadoop Architecture and Components](02-big-data-systems-with-hadoop/session-07-hadoop-architecture-and-components.md) | ✅ Ready |
+| 8 | [Working with Hive and Impala](02-big-data-systems-with-hadoop/session-08-hive-and-impala.md) | ✅ Ready |
+| 9 | [Introduction to Apache Pig](02-big-data-systems-with-hadoop/session-09-introduction-to-apache-pig.md) | ✅ Ready |
+| 10 | [Pig Latin Data Model and Operators](02-big-data-systems-with-hadoop/session-10-pig-latin-data-model-and-operators.md) | ✅ Ready |
+| 11 | [Introduction to Apache Spark](02-big-data-systems-with-hadoop/session-11-introduction-to-apache-spark.md) | ✅ Ready |
+| 12 | [Spark Statistics for Interactive Dashboards](02-big-data-systems-with-hadoop/session-12-spark-statistics-and-dashboards.md) | ✅ Ready |
+| 13 | [Data Analysis with Spark: Clustering and Forecasting](02-big-data-systems-with-hadoop/session-13-spark-clustering-and-forecasting.md) | ✅ Ready |
+| 14 | [Special Field Types, Generated Fields and Parameters in Spark](02-big-data-systems-with-hadoop/session-14-spark-field-types-and-parameters.md) | ✅ Ready |
+| 15 | [Final Project and Next Steps](02-big-data-systems-with-hadoop/session-15-final-project-and-next-steps.md) | ✅ Ready |
 
 ### Module 3 · Advanced Data Science with Python
 
