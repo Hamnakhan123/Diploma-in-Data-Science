@@ -43,27 +43,27 @@ Prepared by **Hamna Zahid Khan**, Junior Lecturer
 | 14 | [Special Field Types, Generated Fields and Parameters in Spark](02-big-data-systems-with-hadoop/session-14-spark-field-types-and-parameters.md) | ✅ Ready |
 | 15 | [Final Project and Next Steps](02-big-data-systems-with-hadoop/session-15-final-project-and-next-steps.md) | ✅ Ready |
 
-### Module 3 · Advanced Data Science with Python
+### Module 3 · [Advanced Data Science with Python](03-advanced-data-science-with-python/README.md)
 
-*36 hours · 15 sessions · ⏳ coming soon*
+*36 hours · 15 sessions · ✅ complete*
 
 | # | Session | Status |
 |---|---|---|
-| 1 | Fundamentals of Advanced Data Science | ⏳ Coming soon |
-| 2 | Supervised Learning | ⏳ Coming soon |
-| 3 | Advanced Supervised Learning: Regression Techniques | ⏳ Coming soon |
-| 4 | Advanced Supervised Learning: Classification Techniques | ⏳ Coming soon |
-| 5 | Advanced Supervised Learning: Time Series Analysis | ⏳ Coming soon |
-| 6 | Unsupervised Learning | ⏳ Coming soon |
-| 7 | Advanced Unsupervised Learning: Clustering Algorithms | ⏳ Coming soon |
-| 8 | Advanced Unsupervised Learning: Dimensionality Reduction | ⏳ Coming soon |
-| 9 | Pattern Mining and Visualization with Seaborn | ⏳ Coming soon |
-| 10 | Reinforcement Learning Basics | ⏳ Coming soon |
-| 11 | Reinforcement Learning Principles | ⏳ Coming soon |
-| 12 | Deep Learning Models | ⏳ Coming soon |
-| 13 | Advanced Deep Learning Techniques | ⏳ Coming soon |
-| 14 | Model Performance Evaluation | ⏳ Coming soon |
-| 15 | Model Interpretability and Interoperability | ⏳ Coming soon |
+| 1 | [Fundamentals of Advanced Data Science](03-advanced-data-science-with-python/session-01-fundamentals-of-advanced-data-science.md) | ✅ Ready |
+| 2 | [Supervised Learning](03-advanced-data-science-with-python/session-02-supervised-learning.md) | ✅ Ready |
+| 3 | [Advanced Supervised Learning: Regression Techniques](03-advanced-data-science-with-python/session-03-advanced-regression-techniques.md) | ✅ Ready |
+| 4 | [Advanced Supervised Learning: Classification Techniques](03-advanced-data-science-with-python/session-04-advanced-classification-techniques.md) | ✅ Ready |
+| 5 | [Advanced Supervised Learning: Time Series Analysis](03-advanced-data-science-with-python/session-05-time-series-analysis.md) | ✅ Ready |
+| 6 | [Unsupervised Learning](03-advanced-data-science-with-python/session-06-unsupervised-learning.md) | ✅ Ready |
+| 7 | [Advanced Unsupervised Learning: Clustering Algorithms](03-advanced-data-science-with-python/session-07-advanced-clustering-algorithms.md) | ✅ Ready |
+| 8 | [Advanced Unsupervised Learning: Dimensionality Reduction](03-advanced-data-science-with-python/session-08-dimensionality-reduction.md) | ✅ Ready |
+| 9 | [Pattern Mining and Visualization with Seaborn](03-advanced-data-science-with-python/session-09-pattern-mining-and-seaborn.md) | ✅ Ready |
+| 10 | [Reinforcement Learning Basics](03-advanced-data-science-with-python/session-10-reinforcement-learning-basics.md) | ✅ Ready |
+| 11 | [Reinforcement Learning Principles](03-advanced-data-science-with-python/session-11-reinforcement-learning-principles.md) | ✅ Ready |
+| 12 | [Deep Learning Models](03-advanced-data-science-with-python/session-12-deep-learning-models.md) | ✅ Ready |
+| 13 | [Advanced Deep Learning Techniques](03-advanced-data-science-with-python/session-13-advanced-deep-learning.md) | ✅ Ready |
+| 14 | [Model Performance Evaluation](03-advanced-data-science-with-python/session-14-model-performance-evaluation.md) | ✅ Ready |
+| 15 | [Model Interpretability and Interoperability](03-advanced-data-science-with-python/session-15-model-interpretability.md) | ✅ Ready |
 
 ### Module 4 · Visual Analytics with Tableau
 

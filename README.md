@@ -5,7 +5,7 @@
 Prepared by **Hamna Zahid Khan**, Junior Lecturer
 
 Session-by-session lecture notes, worked examples and runnable code for the **Diploma in Data Science**.
-Every session has a Markdown lesson and a matching `code/` folder (Python and PySpark scripts, WEKA command-line scripts, datasets and notebooks).
+Every session has a Markdown lesson and a matching `code/` folder (Python, PySpark and PyTorch scripts, WEKA command-line scripts, datasets, charts and executed notebooks with an Open in Colab badge).
 
 > 🚧 **Work in progress.** Sessions are published as they are written. Items marked *coming soon* are on the way.
 
@@ -52,27 +52,27 @@ Every session has a Markdown lesson and a matching `code/` folder (Python and Py
 | 14 | [Special Field Types, Generated Fields and Parameters in Spark](term-2/02-big-data-systems-with-hadoop/session-14-spark-field-types-and-parameters.md) | ✅ Ready |
 | 15 | [Final Project and Next Steps](term-2/02-big-data-systems-with-hadoop/session-15-final-project-and-next-steps.md) | ✅ Ready |
 
-### Module 3 · Advanced Data Science with Python
+### Module 3 · [Advanced Data Science with Python](term-2/03-advanced-data-science-with-python/README.md)
 
-*36 hours · 15 sessions · ⏳ coming soon*
+*36 hours · 15 sessions · ✅ complete*
 
 | # | Session | Status |
 |---|---|---|
-| 1 | Fundamentals of Advanced Data Science | ⏳ Coming soon |
-| 2 | Supervised Learning | ⏳ Coming soon |
-| 3 | Advanced Supervised Learning: Regression Techniques | ⏳ Coming soon |
-| 4 | Advanced Supervised Learning: Classification Techniques | ⏳ Coming soon |
-| 5 | Advanced Supervised Learning: Time Series Analysis | ⏳ Coming soon |
-| 6 | Unsupervised Learning | ⏳ Coming soon |
-| 7 | Advanced Unsupervised Learning: Clustering Algorithms | ⏳ Coming soon |
-| 8 | Advanced Unsupervised Learning: Dimensionality Reduction | ⏳ Coming soon |
-| 9 | Pattern Mining and Visualization with Seaborn | ⏳ Coming soon |
-| 10 | Reinforcement Learning Basics | ⏳ Coming soon |
-| 11 | Reinforcement Learning Principles | ⏳ Coming soon |
-| 12 | Deep Learning Models | ⏳ Coming soon |
-| 13 | Advanced Deep Learning Techniques | ⏳ Coming soon |
-| 14 | Model Performance Evaluation | ⏳ Coming soon |
-| 15 | Model Interpretability and Interoperability | ⏳ Coming soon |
+| 1 | [Fundamentals of Advanced Data Science](term-2/03-advanced-data-science-with-python/session-01-fundamentals-of-advanced-data-science.md) | ✅ Ready |
+| 2 | [Supervised Learning](term-2/03-advanced-data-science-with-python/session-02-supervised-learning.md) | ✅ Ready |
+| 3 | [Advanced Supervised Learning: Regression Techniques](term-2/03-advanced-data-science-with-python/session-03-advanced-regression-techniques.md) | ✅ Ready |
+| 4 | [Advanced Supervised Learning: Classification Techniques](term-2/03-advanced-data-science-with-python/session-04-advanced-classification-techniques.md) | ✅ Ready |
+| 5 | [Advanced Supervised Learning: Time Series Analysis](term-2/03-advanced-data-science-with-python/session-05-time-series-analysis.md) | ✅ Ready |
+| 6 | [Unsupervised Learning](term-2/03-advanced-data-science-with-python/session-06-unsupervised-learning.md) | ✅ Ready |
+| 7 | [Advanced Unsupervised Learning: Clustering Algorithms](term-2/03-advanced-data-science-with-python/session-07-advanced-clustering-algorithms.md) | ✅ Ready |
+| 8 | [Advanced Unsupervised Learning: Dimensionality Reduction](term-2/03-advanced-data-science-with-python/session-08-dimensionality-reduction.md) | ✅ Ready |
+| 9 | [Pattern Mining and Visualization with Seaborn](term-2/03-advanced-data-science-with-python/session-09-pattern-mining-and-seaborn.md) | ✅ Ready |
+| 10 | [Reinforcement Learning Basics](term-2/03-advanced-data-science-with-python/session-10-reinforcement-learning-basics.md) | ✅ Ready |
+| 11 | [Reinforcement Learning Principles](term-2/03-advanced-data-science-with-python/session-11-reinforcement-learning-principles.md) | ✅ Ready |
+| 12 | [Deep Learning Models](term-2/03-advanced-data-science-with-python/session-12-deep-learning-models.md) | ✅ Ready |
+| 13 | [Advanced Deep Learning Techniques](term-2/03-advanced-data-science-with-python/session-13-advanced-deep-learning.md) | ✅ Ready |
+| 14 | [Model Performance Evaluation](term-2/03-advanced-data-science-with-python/session-14-model-performance-evaluation.md) | ✅ Ready |
+| 15 | [Model Interpretability and Interoperability](term-2/03-advanced-data-science-with-python/session-15-model-interpretability.md) | ✅ Ready |
 
 ### Module 4 · Visual Analytics with Tableau
 
@@ -133,6 +133,7 @@ Every session has a Markdown lesson and a matching `code/` folder (Python and Py
    - Python: `pip install pandas numpy scikit-learn mlxtend matplotlib` then `python3 <script>.py`
    - WEKA: install [WEKA](https://ml.cms.waikato.ac.nz/weka) (Java 11+) and run the `.sh` scripts, or load the `.arff` files in the WEKA Explorer.
    - Spark (Big Data module): install Java 17, then `pip install pyspark pyarrow` and run the scripts the same way. Hadoop shell commands (`hdfs`, `yarn`, `sqoop`, `pig`) are marked illustrative and need a Hadoop installation.
+   - Advanced Data Science with Python: `pip install numpy pandas matplotlib seaborn scikit-learn scipy statsmodels mlxtend shap lime skl2onnx onnxruntime torch` (or open any session notebook in Google Colab).
 3. Notebooks (`.ipynb`) open in Jupyter or Google Colab.
 
 ---
